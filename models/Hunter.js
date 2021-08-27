@@ -2,6 +2,7 @@ const Traveler = require("./../../models/Traveler")
 
 class Hunter extends Traveler {
     constructor(nome){
+        super(nome)
         this.nome = nome;
         this.food = 2;
         this.isHealthy = true;
